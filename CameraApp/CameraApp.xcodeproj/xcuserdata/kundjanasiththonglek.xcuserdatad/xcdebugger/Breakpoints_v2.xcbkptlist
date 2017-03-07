@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CameraApp/ViewController.swift"
+            timestampString = "510560379.072593"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.ViewController.__deallocating_deinit"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kundjanasiththonglek/Documents/mobile_dev/ios/CameraApp/CameraApp/ViewController.swift"
+                  timestampString = "510560692.998772"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CameraApp.ViewController"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kundjanasiththonglek/Documents/mobile_dev/ios/CameraApp/CameraApp/ViewController.swift"
+                  timestampString = "510560693.002213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CameraApp.ViewController"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kundjanasiththonglek/Documents/mobile_dev/ios/CameraApp/CameraApp/ViewController.swift"
+                  timestampString = "510560693.004965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CameraApp.ViewController&gt;"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kundjanasiththonglek/Documents/mobile_dev/ios/CameraApp/CameraApp/ViewController.swift"
+                  timestampString = "510560693.007461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CameraApp.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CameraApp.ViewController&gt;"
+                  moduleName = "CameraApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kundjanasiththonglek/Documents/mobile_dev/ios/CameraApp/CameraApp/ViewController.swift"
+                  timestampString = "510560693.009048"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

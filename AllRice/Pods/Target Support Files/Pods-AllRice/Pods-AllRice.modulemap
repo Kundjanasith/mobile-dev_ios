@@ -1,0 +1,6 @@
+framework module Pods_AllRice {
+  umbrella header "Pods-AllRice-umbrella.h"
+
+  export *
+  module * { export * }
+}

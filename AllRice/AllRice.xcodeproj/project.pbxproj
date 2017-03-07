@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F33508EDE2DD7127119F2 /* Pods_AllRice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F539145E91F074184A20EA19 /* Pods_AllRice.framework */; };
+		949DC6FF1E691BA800585997 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC6FA1E691BA800585997 /* GoogleAppUtilities.framework */; };
+		949DC7001E691BA800585997 /* GoogleSignIn.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC6FB1E691BA800585997 /* GoogleSignIn.bundle */; };
+		949DC7011E691BA800585997 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC6FC1E691BA800585997 /* GoogleSignIn.framework */; };
+		949DC7021E691BA800585997 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC6FD1E691BA800585997 /* GoogleSignInDependencies.framework */; };
+		949DC7031E691BA800585997 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC6FE1E691BA800585997 /* GoogleSymbolUtilities.framework */; };
+		949DC7051E691BB700585997 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC7041E691BB700585997 /* SafariServices.framework */; };
+		949DC7071E691BC200585997 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949DC7061E691BC200585997 /* SystemConfiguration.framework */; };
+		94F9D20D1E6915D1008460E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9D20C1E6915D1008460E4 /* AppDelegate.swift */; };
+		94F9D20F1E6915D1008460E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F9D20E1E6915D1008460E4 /* ViewController.swift */; };
+		94F9D2121E6915D1008460E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F9D2101E6915D1008460E4 /* Main.storyboard */; };
+		94F9D2141E6915D1008460E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F9D2131E6915D1008460E4 /* Assets.xcassets */; };
+		94F9D2171E6915D1008460E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F9D2151E6915D1008460E4 /* LaunchScreen.storyboard */; };
+		94F9D21F1E691863008460E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F9D21E1E691863008460E4 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4850DC5074EBDD953A6BEF5F /* Pods-AllRice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllRice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllRice/Pods-AllRice.debug.xcconfig"; sourceTree = "<group>"; };
+		949DC6FA1E691BA800585997 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppUtilities.framework; path = ../../../../Downloads/google_signin_sdk_4_0_1/GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		949DC6FB1E691BA800585997 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = ../../../../Downloads/google_signin_sdk_4_0_1/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		949DC6FC1E691BA800585997 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = ../../../../Downloads/google_signin_sdk_4_0_1/GoogleSignIn.framework; sourceTree = "<group>"; };
+		949DC6FD1E691BA800585997 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = ../../../../Downloads/google_signin_sdk_4_0_1/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		949DC6FE1E691BA800585997 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = ../../../../Downloads/google_signin_sdk_4_0_1/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		949DC7041E691BB700585997 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		949DC7061E691BC200585997 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		94F9D2091E6915D1008460E4 /* AllRice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllRice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F9D20C1E6915D1008460E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94F9D20E1E6915D1008460E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94F9D2111E6915D1008460E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94F9D2131E6915D1008460E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94F9D2161E6915D1008460E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94F9D2181E6915D1008460E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F9D21E1E691863008460E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD60AF5854843EAE72A3945B /* Pods-AllRice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllRice.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllRice/Pods-AllRice.release.xcconfig"; sourceTree = "<group>"; };
+		F539145E91F074184A20EA19 /* Pods_AllRice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllRice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94F9D2061E6915D0008460E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949DC7071E691BC200585997 /* SystemConfiguration.framework in Frameworks */,
+				949DC7051E691BB700585997 /* SafariServices.framework in Frameworks */,
+				949DC6FF1E691BA800585997 /* GoogleAppUtilities.framework in Frameworks */,
+				949DC7001E691BA800585997 /* GoogleSignIn.bundle in Frameworks */,
+				949DC7011E691BA800585997 /* GoogleSignIn.framework in Frameworks */,
+				949DC7021E691BA800585997 /* GoogleSignInDependencies.framework in Frameworks */,
+				949DC7031E691BA800585997 /* GoogleSymbolUtilities.framework in Frameworks */,
+				000F33508EDE2DD7127119F2 /* Pods_AllRice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082D36F3B9CC1458BBA913AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949DC7061E691BC200585997 /* SystemConfiguration.framework */,
+				949DC7041E691BB700585997 /* SafariServices.framework */,
+				949DC6FA1E691BA800585997 /* GoogleAppUtilities.framework */,
+				949DC6FB1E691BA800585997 /* GoogleSignIn.bundle */,
+				949DC6FC1E691BA800585997 /* GoogleSignIn.framework */,
+				949DC6FD1E691BA800585997 /* GoogleSignInDependencies.framework */,
+				949DC6FE1E691BA800585997 /* GoogleSymbolUtilities.framework */,
+				F539145E91F074184A20EA19 /* Pods_AllRice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5F57F5884803F62805A023 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4850DC5074EBDD953A6BEF5F /* Pods-AllRice.debug.xcconfig */,
+				DD60AF5854843EAE72A3945B /* Pods-AllRice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94F9D2001E6915D0008460E4 = {
+			isa = PBXGroup;
+			children = (
+				94F9D20B1E6915D1008460E4 /* AllRice */,
+				94F9D20A1E6915D1008460E4 /* Products */,
+				8D5F57F5884803F62805A023 /* Pods */,
+				082D36F3B9CC1458BBA913AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94F9D20A1E6915D1008460E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F9D2091E6915D1008460E4 /* AllRice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94F9D20B1E6915D1008460E4 /* AllRice */ = {
+			isa = PBXGroup;
+			children = (
+				94F9D21E1E691863008460E4 /* GoogleService-Info.plist */,
+				94F9D20C1E6915D1008460E4 /* AppDelegate.swift */,
+				94F9D20E1E6915D1008460E4 /* ViewController.swift */,
+				94F9D2101E6915D1008460E4 /* Main.storyboard */,
+				94F9D2131E6915D1008460E4 /* Assets.xcassets */,
+				94F9D2151E6915D1008460E4 /* LaunchScreen.storyboard */,
+				94F9D2181E6915D1008460E4 /* Info.plist */,
+			);
+			path = AllRice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94F9D2081E6915D0008460E4 /* AllRice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F9D21B1E6915D1008460E4 /* Build configuration list for PBXNativeTarget "AllRice" */;
+			buildPhases = (
+				89825645BD1FC6F19F21E7D9 /* [CP] Check Pods Manifest.lock */,
+				94F9D2051E6915D0008460E4 /* Sources */,
+				94F9D2061E6915D0008460E4 /* Frameworks */,
+				94F9D2071E6915D0008460E4 /* Resources */,
+				D18BBCB604E8510B492DFDF4 /* [CP] Embed Pods Frameworks */,
+				13A0458D44AB925AF61E8DB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllRice;
+			productName = AllRice;
+			productReference = 94F9D2091E6915D1008460E4 /* AllRice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94F9D2011E6915D0008460E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kundjanasith;
+				TargetAttributes = {
+					94F9D2081E6915D0008460E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 94F9D2041E6915D0008460E4 /* Build configuration list for PBXProject "AllRice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94F9D2001E6915D0008460E4;
+			productRefGroup = 94F9D20A1E6915D1008460E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F9D2081E6915D0008460E4 /* AllRice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94F9D2071E6915D0008460E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9D2171E6915D1008460E4 /* LaunchScreen.storyboard in Resources */,
+				94F9D21F1E691863008460E4 /* GoogleService-Info.plist in Resources */,
+				94F9D2141E6915D1008460E4 /* Assets.xcassets in Resources */,
+				94F9D2121E6915D1008460E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A0458D44AB925AF61E8DB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllRice/Pods-AllRice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89825645BD1FC6F19F21E7D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18BBCB604E8510B492DFDF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AllRice/Pods-AllRice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94F9D2051E6915D0008460E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F9D20F1E6915D1008460E4 /* ViewController.swift in Sources */,
+				94F9D20D1E6915D1008460E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94F9D2101E6915D1008460E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F9D2111E6915D1008460E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94F9D2151E6915D1008460E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94F9D2161E6915D1008460E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94F9D2191E6915D1008460E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94F9D21A1E6915D1008460E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94F9D21C1E6915D1008460E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4850DC5074EBDD953A6BEF5F /* Pods-AllRice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AllRice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kundjanasith.AllRice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94F9D21D1E6915D1008460E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD60AF5854843EAE72A3945B /* Pods-AllRice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AllRice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kundjanasith.AllRice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94F9D2041E6915D0008460E4 /* Build configuration list for PBXProject "AllRice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F9D2191E6915D1008460E4 /* Debug */,
+				94F9D21A1E6915D1008460E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F9D21B1E6915D1008460E4 /* Build configuration list for PBXNativeTarget "AllRice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F9D21C1E6915D1008460E4 /* Debug */,
+				94F9D21D1E6915D1008460E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94F9D2011E6915D0008460E4 /* Project object */;
+}
