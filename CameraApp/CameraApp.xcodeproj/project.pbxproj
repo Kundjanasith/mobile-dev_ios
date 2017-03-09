@@ -12,6 +12,7 @@
 		9408A6D21E6E84A900C65997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9408A6D01E6E84A900C65997 /* Main.storyboard */; };
 		9408A6D41E6E84A900C65997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9408A6D31E6E84A900C65997 /* Assets.xcassets */; };
 		9408A6D71E6E84A900C65997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9408A6D51E6E84A900C65997 /* LaunchScreen.storyboard */; };
+		94495E211E6F9FE3007D7EF5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94495E201E6F9FE3007D7EF5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9408A6D31E6E84A900C65997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9408A6D61E6E84A900C65997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9408A6D81E6E84A900C65997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94495E201E6F9FE3007D7EF5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94495E211E6F9FE3007D7EF5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				9408A6CB1E6E84A900C65997 /* CameraApp */,
 				9408A6CA1E6E84A900C65997 /* Products */,
+				94495E1F1E6F9FE3007D7EF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				9408A6D81E6E84A900C65997 /* Info.plist */,
 			);
 			path = CameraApp;
+			sourceTree = "<group>";
+		};
+		94495E1F1E6F9FE3007D7EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94495E201E6F9FE3007D7EF5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +314,7 @@
 				9408A6DD1E6E84A900C65997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
