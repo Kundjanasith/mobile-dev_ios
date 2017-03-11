@@ -14,6 +14,8 @@ class RegisViewController: UIViewController {
     var dbHandle:FIRDatabaseHandle?
     var titleUser = [String]()
 
+    @IBOutlet var scrollView: UIScrollView!
+    
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var cpasswordTxt: UITextField!
@@ -22,6 +24,7 @@ class RegisViewController: UIViewController {
     @IBOutlet weak var lastnameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var phoneTxt: UITextField!
+    
     
     @IBAction func confirmRegis(_ sender: Any) {
             print("Press confirm")
@@ -249,6 +252,7 @@ class RegisViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollView.contentSize.height = 1000
         ref = FIRDatabase.database().reference()
         ref?.child("Users").observe(.childAdded, with: {(snapshot) in
             if let snapDict = snapshot.value as? [String:AnyObject]{
