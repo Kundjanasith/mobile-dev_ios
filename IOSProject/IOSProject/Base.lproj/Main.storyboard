@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="972" y="37.331334332833585"/>
         </scene>
-        <!--View Controller-->
+        <!--Regis View Controller-->
         <scene sceneID="mxb-Bc-jhU">
             <objects>
-                <viewController id="6FG-3o-eCM" sceneMemberID="viewController">
+                <viewController id="6FG-3o-eCM" customClass="RegisViewController" customModule="IOSProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rzr-jq-v2v"/>
                         <viewControllerLayoutGuide type="bottom" id="lfT-iO-q6E"/>
@@ -181,7 +181,7 @@
                                 <rect key="frame" x="16" y="541.5" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Phone number :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhx-bi-a9n">
                                 <rect key="frame" x="16" y="577" width="343" height="21"/>
@@ -193,12 +193,15 @@
                                 <rect key="frame" x="16" y="606" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIi-4r-SqF">
                                 <rect key="frame" x="16" y="637" width="343" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.79203314070324238" blue="0.76805089812789207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Confirm"/>
+                                <connections>
+                                    <action selector="confirmRegis:" destination="6FG-3o-eCM" eventType="touchUpInside" id="UeV-sb-t8d"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -253,6 +256,15 @@
                             <constraint firstItem="Nhx-bi-a9n" firstAttribute="trailing" secondItem="fyd-vr-OTU" secondAttribute="trailingMargin" id="xAs-RG-SJq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cpasswordTxt" destination="ymM-Me-Wdt" id="odg-2P-2EL"/>
+                        <outlet property="emailTxt" destination="6mH-6A-st5" id="rC8-a7-smp"/>
+                        <outlet property="firstnameTxt" destination="6KY-7x-0Me" id="kQz-0p-jch"/>
+                        <outlet property="lastnameTxt" destination="Uox-W3-5k7" id="zwQ-cH-r8o"/>
+                        <outlet property="passwordTxt" destination="Zf4-j4-p8k" id="laL-Hn-Ctv"/>
+                        <outlet property="phoneTxt" destination="eqp-Lb-fhs" id="8Be-Wa-4uP"/>
+                        <outlet property="usernameTxt" destination="AKa-sT-3PY" id="DXD-WU-TXG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yAG-Ch-PlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

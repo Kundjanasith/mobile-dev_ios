@@ -14,6 +14,7 @@
 		946259D71E740146002E6256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946259D61E740146002E6256 /* Assets.xcassets */; };
 		946259DA1E740146002E6256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946259D81E740146002E6256 /* LaunchScreen.storyboard */; };
 		946259E21E7402B1002E6256 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 946259E11E7402B1002E6256 /* GoogleService-Info.plist */; };
+		946259E41E741DB0002E6256 /* RegisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946259E31E741DB0002E6256 /* RegisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		946259D91E740146002E6256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946259DB1E740146002E6256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946259E11E7402B1002E6256 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		946259E31E741DB0002E6256 /* RegisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				946259D61E740146002E6256 /* Assets.xcassets */,
 				946259D81E740146002E6256 /* LaunchScreen.storyboard */,
 				946259DB1E740146002E6256 /* Info.plist */,
+				946259E31E741DB0002E6256 /* RegisViewController.swift */,
 			);
 			path = IOSProject;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				946259D21E740146002E6256 /* ViewController.swift in Sources */,
 				946259D01E740146002E6256 /* AppDelegate.swift in Sources */,
+				946259E41E741DB0002E6256 /* RegisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
