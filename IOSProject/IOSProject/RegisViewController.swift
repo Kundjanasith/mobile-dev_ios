@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
 class RegisViewController: UIViewController {
+    var ref:FIRDatabaseReference?
+    var dbHandle:FIRDatabaseHandle?
+    var titleUser = [String]()
 
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
@@ -118,7 +122,18 @@ class RegisViewController: UIViewController {
         isValidName(testStr: firstnameTxt.text!) && isValidName(testStr: lastnameTxt.text!) &&
             isValidEmail(testStr: emailTxt.text!) && isValidPhone(testStr: phoneTxt.text!){
             print("OKK")
-            
+            if let newPost = ref?.child("Users").childByAutoId(){
+                let id = newPost.key
+                ref?.child("Users").child(id).child("Username").setValue(usernameTxt.text!)
+                ref?.child("Users").child(id).child("Password").setValue(passwordTxt.text!)
+                ref?.child("Users").child(id).child("Firstname").setValue(firstnameTxt.text!)
+                ref?.child("Users").child(id).child("Lastname").setValue(lastnameTxt.text!)
+                ref?.child("Users").child(id).child("Email").setValue(emailTxt.text!)
+                ref?.child("Users").child(id).child("Phone").setValue(phoneTxt.text!)
+            }
+            else{
+                print("Error")
+            }
             regis_true(userStr: usernameTxt.text!)
         }
         else{
@@ -128,6 +143,10 @@ class RegisViewController: UIViewController {
     
     func isValidUser(userStr: String) -> Bool {
         if userStr.characters.count == 0 { return false }
+        for i in titleUser{
+            if i == userStr { return false }
+        }
+        print(titleUser)
         return true
     }
     
@@ -230,7 +249,17 @@ class RegisViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        ref = FIRDatabase.database().reference()
+        ref?.child("Users").observe(.childAdded, with: {(snapshot) in
+            if let snapDict = snapshot.value as? [String:AnyObject]{
+                for each in snapDict{
+                    if (each.key == "Username"){
+                        self.titleUser.append(each.value as! String)
+                    }
+                }
+            }
+            
+        })
         // Do any additional setup after loading the view.
     }
 
