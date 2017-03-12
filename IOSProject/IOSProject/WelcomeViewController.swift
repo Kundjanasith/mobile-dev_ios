@@ -8,11 +8,13 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
-
+class WelcomeViewController: UIViewController{
+    
+    @IBOutlet var wel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("00")
         // Do any additional setup after loading the view.
     }
 
