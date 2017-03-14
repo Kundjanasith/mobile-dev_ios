@@ -29,6 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
     @IBOutlet var testLa: UILabel!
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var usernameTxt: UITextField!
+    @IBOutlet var conBtn: UIButton!
     @IBOutlet var passwordTxt: UITextField!
     
     @IBOutlet var RegisBtn: UIButton!
@@ -54,21 +55,26 @@ class ViewController: UIViewController, UITextFieldDelegate{
             self.passwordTxt.removeFromSuperview()
             self.usernameLabel.removeFromSuperview()
             self.passwordLabel.removeFromSuperview()
+            self.scrollView.addSubview(conBtn)
             self.scrollView.addSubview(testLa)
             self.scrollView.addSubview(testLa1)
+            
             
             
             let xCenterConstraint = NSLayoutConstraint(item: testLa, attribute: .centerX, relatedBy: .equal, toItem: scrollView, attribute: .centerX, multiplier: 1, constant: 0)
 //            let yCenterConstraint = NSLayoutConstraint(item: testLa, attribute: .centerY, relatedBy: .equal, toItem: scrollView, attribute: .centerY, multiplier: 1, constant: 0)
             let yCenterConstraint = NSLayoutConstraint(item: testLa, attribute: .top, relatedBy: .equal, toItem: scrollView, attribute: .top, multiplier: 1, constant: 10)
             let leadingConstraint1 = NSLayoutConstraint(item: testLa, attribute: .leading, relatedBy: .equal, toItem: scrollView, attribute: .leading, multiplier: 1, constant: 10)
-            let trailingConstraint1 = NSLayoutConstraint(item: testLa, attribute: .trailing, relatedBy: .equal, toItem: scrollView, attribute: .trailing, multiplier: 1, constant: -10)
+//            let trailingConstraint1 = NSLayoutConstraint(item: testLa, attribute: .trailing, relatedBy: .equal, toItem: scrollView, attribute: .trailing, multiplier: 1, constant: -10)
             self.scrollView.addConstraints([xCenterConstraint, yCenterConstraint, leadingConstraint1])
             
             let xCenterConstraint1 = NSLayoutConstraint(item: testLa1, attribute: .centerX, relatedBy: .equal, toItem: scrollView, attribute: .centerX, multiplier: 1, constant: 0)
             let yCenterConstraint2 = NSLayoutConstraint(item: testLa1, attribute: .top, relatedBy: .equal, toItem: scrollView, attribute: .top, multiplier: 1, constant: 10)
             let leadingConstraint11 = NSLayoutConstraint(item: testLa1, attribute: .leading, relatedBy: .equal, toItem: scrollView, attribute: .leading, multiplier: 1, constant: 10)
             self.scrollView.addConstraints([xCenterConstraint1, yCenterConstraint2, leadingConstraint11 ])
+            
+//            let a1 = NSLayoutConstraint(item: conBtn, attribute: .bottom, relatedBy: .equal, toItem: scrollView, attribute: .height, multiplier: 1, constant: 0)
+//            self.scrollView.addConstraints([a1])
             
             
 
@@ -81,6 +87,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
             testLa.text = s1 + s2 + s3 + s4 + s5
             testLa1.text = "Welcome"
             testLa1.textAlignment = .natural
+            conBtn.setTitle("Confirm", for: .normal)
 //            self.scrollView.removeFromSuperview()
 //            let newViewController = WelcomeViewController()
 //            self.navigationController?.pushViewController(newViewController, animated: true)
@@ -124,6 +131,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         super.viewDidLoad()
         self.testLa.removeFromSuperview()
         self.testLa1.removeFromSuperview()
+        self.conBtn.removeFromSuperview()
         ref = FIRDatabase.database().reference()
         ref?.child("Users").observe(.childAdded, with: {(snapshot) in
             if let snapDict = snapshot.value as? [String:AnyObject]{

@@ -84,6 +84,11 @@
                                         <color key="textColor" red="1" green="0.27480938267589572" blue="0.26490072587588964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tj8-XO-7eD">
+                                        <rect key="frame" x="22" y="496" width="331" height="43"/>
+                                        <color key="backgroundColor" red="1" green="0.84273740077025105" blue="0.98555326071491145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Confrim"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98691600792072776" green="1" blue="0.74292291987340675" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -102,12 +107,15 @@
                                     <constraint firstAttribute="trailing" secondItem="92d-JV-fGX" secondAttribute="trailing" constant="10" id="ZFu-dg-R7s"/>
                                     <constraint firstItem="sI8-vi-Uvq" firstAttribute="top" secondItem="92d-JV-fGX" secondAttribute="bottom" constant="20" id="ZjK-Xq-x9H"/>
                                     <constraint firstItem="92d-JV-fGX" firstAttribute="leading" secondItem="zhq-u8-sne" secondAttribute="leading" constant="10" id="b21-fX-KnS"/>
+                                    <constraint firstAttribute="trailing" secondItem="tj8-XO-7eD" secondAttribute="trailing" constant="10" id="bXM-4I-BwZ"/>
                                     <constraint firstAttribute="trailing" secondItem="tOv-if-O4V" secondAttribute="trailing" constant="10" id="eWo-Lx-iCg"/>
                                     <constraint firstItem="UnB-23-gpP" firstAttribute="leading" secondItem="zhq-u8-sne" secondAttribute="leading" constant="10" id="gCF-dY-4EZ"/>
+                                    <constraint firstItem="sI8-vi-Uvq" firstAttribute="top" secondItem="tj8-XO-7eD" secondAttribute="bottom" constant="10" id="ilq-eT-84a"/>
                                     <constraint firstItem="tOv-if-O4V" firstAttribute="top" secondItem="zhq-u8-sne" secondAttribute="top" constant="10" id="ioG-4i-irI"/>
                                     <constraint firstItem="XXI-jt-LUH" firstAttribute="top" secondItem="9QW-Rh-lOW" secondAttribute="bottom" constant="10" id="jLn-wv-yf3"/>
                                     <constraint firstItem="9QW-Rh-lOW" firstAttribute="top" secondItem="zhq-u8-sne" secondAttribute="top" constant="275" id="kUw-13-WMr"/>
                                     <constraint firstItem="XXI-jt-LUH" firstAttribute="centerX" secondItem="zhq-u8-sne" secondAttribute="centerX" id="lFe-Fe-41w"/>
+                                    <constraint firstItem="tj8-XO-7eD" firstAttribute="leading" secondItem="zhq-u8-sne" secondAttribute="leading" constant="10" id="ufz-A7-ff4"/>
                                     <constraint firstItem="sI8-vi-Uvq" firstAttribute="leading" secondItem="zhq-u8-sne" secondAttribute="leading" constant="10" id="vP9-SH-Vwv"/>
                                 </constraints>
                             </scrollView>
@@ -125,6 +133,7 @@
                     <connections>
                         <outlet property="LogInBtn" destination="sI8-vi-Uvq" id="FS6-BE-9Gd"/>
                         <outlet property="RegisBtn" destination="UnB-23-gpP" id="mov-wo-5NS"/>
+                        <outlet property="conBtn" destination="tj8-XO-7eD" id="xzW-4c-CRj"/>
                         <outlet property="passwordLabel" destination="0WA-1s-WDy" id="xvu-1i-Ycw"/>
                         <outlet property="passwordTxt" destination="92d-JV-fGX" id="uGw-MY-cO3"/>
                         <outlet property="scrollView" destination="zhq-u8-sne" id="lkA-AN-8Yg"/>
